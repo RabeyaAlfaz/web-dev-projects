@@ -1,0 +1,243 @@
+/* main section 1st section */
+.main-first-sec {
+    display: flex;
+    justify-content: center;
+}
+
+.mfirst-section-ul {
+    display: block;
+    list-style: none;
+}
+
+.mfirst-section-ul li {
+    margin: 10px;
+}
+
+.mfirst-section-ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* main section 2nd section */
+.sec-2-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.sec-2-btn button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    margin: 10px;
+}
+
+.sec-2-btn button:hover {
+    background-color: #22314e;
+}
+
+.sec-2-btn button a {
+    text-decoration: none;
+    color: #031029;
+    font-size: 20px;
+}
+
+/* main section 3rd section */
+.sec-3-divcon
+{
+    width: 50%;
+}
+.sec-3-divcon2 {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.sec-3-divelem {
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 245, 237);
+    height: 400px;
+}
+
+/* main section 4th section */
+.sec-4-h1 {
+    text-align: center;
+    position: relative;
+    margin: 100px auto;
+    max-width: 550px;
+}
+
+.sec-4-h1::before {
+    background-color: #22314e;
+    display: block;
+    width: 180px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+}
+
+.sec-4-h1::after {
+    background-color: #22314e;
+    display: block;
+    width: 180px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -1;
+}
+
+.sec-4-icondiv {
+    margin: 30px;
+}
+
+.sec-4-icondiv {
+    text-align: center;
+}
+
+.sec-4-icondiv i {
+    font-size: 50px;
+}
+
+.sec-4-icondiv span {
+    display: block;
+}
+
+/* main section 5th section */
+.sec-5-h1-2 {
+    text-align: center;
+    position: relative;
+    margin: 120px auto;
+    max-width: 600px;
+}
+
+.sec-5-h1-2::before {
+    background-color: #22314e;
+    display: block;
+    width: 70px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+}
+
+.sec-5-h1-2::after {
+    background-color: #22314e;
+    display: block;
+    width: 70px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -1;
+}
+
+.sec-5-div-elem {
+    display: flex;
+    justify-content: center;
+
+}
+
+.sec-5-div-con {
+    /* border: 2px solid #22314e; */
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    transition: transform .2s;
+    height: 375px;
+    width:300px ;
+}
+
+.sec-5-div-con:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.sec-5-div-con button {
+    width: 250px;
+    height: 75px;
+    background-color: aliceblue;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+/* main section 6th section */
+.sec-6-divcon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec-6-divcon button {
+    width: 300px;
+    height: 75px;
+    background-color: #22314e;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sec-6-divcon button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer 1st section */
+.footer-1st-sec {
+    display: flex;
+    background-color: #22314e;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 0%;
+    margin-top: 100px;
+}
+
+.footer-1st-sec div ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-1st-sec div ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.footer-1st-sec div ul li a:hover {
+    text-decoration: underline;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Footer 2nd section */
+.footer-2nd-sec {
+    display: flex;
+    background-color: #22314e;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 50px;
+    margin-top: 0%;
+}
+
+.footer-2nd-sec div div i {
+    margin: 10px;
+}
